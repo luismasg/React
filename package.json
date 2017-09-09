@@ -1,0 +1,29 @@
+{
+  "name": "maniak-dev-books",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.19.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^3.0.0",
+    "react-scripts": "1.0.13",
+    "redux": "^3.7.2",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "json-server": "json-server --watch db.json --port 3001",
+    "dev": "concurrently --kill-others \"npm start\" \"npm run json-server\""
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  }
+}
