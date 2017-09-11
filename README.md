@@ -4,6 +4,7 @@
 
 ## Screenshots
 <img src="public/md.png" />
+<img src="public/sm.png" width="300" />
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## Available Scripts
