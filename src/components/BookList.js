@@ -28,7 +28,7 @@ class BookList extends Component{
     }
     renderPaginationButtons(){
         const page= this.props.pagination && this.props.pagination.map((page,index)=>{
-            return  <li key={index} onClick={()=>{this.props.getBooks(index+1)}}><a href="#" onClick={(e)=>{e.preventDefault()}}>{index+1}</a></li>
+            return  <li key={index} onClick={()=>{this.props.getBooks(index+1)}}><a href="http://nowhere.com" onClick={(e)=>{e.preventDefault()}}>{index+1}</a></li>
         });
         return page;
     }

@@ -1,5 +1,5 @@
 {
-  "name": "maniak-dev-books",
+  "name": "maniak-libray",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,6 +26,7 @@
     "dev": "concurrently --kill-others \"npm start\" \"npm run json-server\""
   },
   "devDependencies": {
-    "concurrently": "^3.5.0"
+    "concurrently": "^3.5.0",
+    "json-server": "^0.12.0"
   }
 }
