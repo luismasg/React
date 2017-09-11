@@ -2,6 +2,8 @@
 - npm install
 - npm run dev
 
+## Screenshots
+<img src="public/md.png" />
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## Available Scripts
