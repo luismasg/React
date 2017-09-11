@@ -64,9 +64,9 @@ export function updatebook(book){
 export function deleteBook(book){
     return function (dispatch){
         axios.delete(`http://localhost:3001/books/${book.id}`,book).then(({data})=>{
-            axios.get('http://localhost:3001/books').then((data)=>{
-                dispatch({type:'list-books',payload:data});
-                dispatch({type:'select-book', payload:data.data[0]});
+            axios.get('http://localhost:3001/books?_page=1&_limit=5').then((data)=>{
+                dispatch({type:'list-books',payload:data}); // list all books
+                dispatch({type:'select-book', payload:data.data[0]}); // select first book
             })
 
         })

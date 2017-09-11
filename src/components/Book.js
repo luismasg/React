@@ -61,7 +61,7 @@ removeBook(){
         renderEditForm(){
 
             return (
-                <form className="col-md-8" onSubmit={this.handleSubmit.bind(this)}>
+                <form className="col-md-8 " onSubmit={this.handleSubmit.bind(this)}>
                 <div className="form-group">
                 <label htmlFor="name">Name</label>
                 <input type="text" className="form-control" id="name" onChange={(e)=>{this.setState({book:{...this.state.book,name:e.target.value}})}}  value={this.state.book.name} />
@@ -87,16 +87,20 @@ removeBook(){
                 </form>
             );
         }
-
+userRender(book){
+    if(book.user.length >1) { return ( <p>Taken by: {book.user}</p>);} else { return <p>Book is available</p>}
+}
         renderBook(book){
+            const statusClass= (book.user.length >1)? 'bookDetail bookUnavailable':'bookDetail bookAvailable';
             if (book) {
                 return (
-                    <div className="bookDetail">
+                    <div className={statusClass}>
                     <h1>{(book.user.length >1)? <span className="glyphicon glyphicon glyphicon-remove"  style={{color:'red'}}  ></span>:''}{book.name}  <span className="glyphicon glyphicon glyphicon-remove pull-right" style={{fontSize:20,marginRight:17}} onClick={()=>{this.removeBook()}}aria-hidden="true"></span> <span className="glyphicon glyphicon glyphicon-pencil pull-right" style={{fontSize:20,marginRight:17}} onClick={()=>{this.edit()}}aria-hidden="true"></span></h1>
                     <p>Author: {book.author}</p>
                     <p>Category: {book.category}</p>
                     <p >Date Published: {book.publishedDate}</p>
-                    <p>User: {book.user}</p>
+
+                    {this.userRender(book)}
                     </div>
                 );
             }

@@ -58,7 +58,7 @@ class AddBook extends Component{
         return (
             <div>
             <Header />
-            <div className="container">
+            <div className="container addBook">
             <form className="col-md-offset-2 col-md-8 " onSubmit={this.handleSubmit.bind(this)}>
             <div className="form-group">
             <label htmlFor="name">Name</label>
@@ -83,7 +83,7 @@ class AddBook extends Component{
             </FormGroup>
 
             <button type="submit" className="btn btn-primary">Submit</button>
-            <button  className="btn btn-danger CancelUpdate">Cancel</button>
+            <button  type="button" onClick={()=>{browserHistory.replace("/");}} className="btn btn-danger CancelUpdate">Cancel</button>
             </form></div></div>
         );
     }
