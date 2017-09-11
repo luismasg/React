@@ -3,3 +3,41 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.bookDetail{
+  border:1px solid #DDD;
+  border-radius: 5px;
+  padding:15px;
+}
+.content{
+  margin-top: 10px;
+}
+
+.CancelUpdate{
+  margin-left:5px
+}
+
+.BookListButton:focus {
+    outline: none !important;
+
+}
+
+
+.BookListButton {
+    font-size:20px
+}
+.addFAB{
+    //position: fixed;
+    //bottom:40px;
+    //right:40px;
+    color:red;
+    font-size:20px;
+}
+.unavailable{
+    border: 1px solid  #dabebf  !important;
+    background-color: #eddfdf !important;
+}
+.available{
+    border: 1px solid #c4d5b8 !important;
+    background-color: #e4ede0 !important;
+}

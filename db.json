@@ -1,12 +1,190 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
   "books": [
-    { "id": 1, "name": "Learning Laravel", "author": "Peter Johnson","category":"it certifications","published-date":"Fri Sep 08 2017 19:43:49 GMT-0500 (Hora de verano central (México))","user":"lgarcia" }
+    {
+      "name": "good Book",
+      "author": "Some Author",
+      "category": "historical",
+      "publishedDate": "2017-09-11T04:01:56.937Z",
+      "user": "",
+      "id": "f43b0b90-96a5-11e7-947f-67e5555er27931c6ca"
+    },
+    {
+      "name": "Finding Neverland",
+      "author": "lucius",
+      "category": "non fiction",
+      "publishedDate": "2017-09-11T04:03:39.864Z",
+      "user": "jsnow",
+      "id": "31947580-96a6-11e7-8c61-51b1yyyy835ec78a"
+    },
+    {
+      "name": "Eloquent Javascript",
+      "author": "lucius",
+      "category": "non fiction",
+      "publishedDate": "2017-09-11T04:03:39.864Z",
+      "user": "",
+      "id": "31947580-96a6-11e7-8c61-51b1uuuuu835ec78a"
+    },
+    {
+      "name": "Eloquent Javascript",
+      "author": "lucius",
+      "category": "non fiction",
+      "publishedDate": "2017-09-11T04:03:39.864Z",
+      "user": "",
+      "id": "3194758hhhh0-96a6-11e7-8c61-51btt1835ec78a"
+    },
+    {
+      "name": "Eloquent Javascript",
+      "author": "lucius",
+      "category": "non fiction",
+      "publishedDate": "2017-09-11T04:03:39.864Z",
+      "user": "jsnow",
+      "id": "3194758gewg0-96a6-11e7-8c61-51b183eg5ec78a"
+    },
+    {
+      "name": "Very Good Book",
+      "author": "lucius",
+      "category": "non fiction",
+      "publishedDate": "2017-09-11T04:03:39.864Z",
+      "user": "jsnow",
+      "id": "31947ewg580-96a6-11e7-8c61-51b1835eec78a"
+    },
+    {
+      "name": "Eloquent Javascript",
+      "author": "lucius",
+      "category": "non fiction",
+      "publishedDate": "2017-09-11T04:03:39.864Z",
+      "user": "",
+      "id": "319eef47580-96fa6-11e7-8c61-51b1835ec78a"
+    },
+    {
+      "name": "Eloquent Javascript",
+      "author": "lucius",
+      "category": "non fiction",
+      "publishedDate": "2017-09-11T04:03:39.864Z",
+      "user": "jsnow",
+      "id": "31947580-9wew6a6-11e7-8c61-51b1835ec78a"
+    },
+    {
+      "name": "Eloquent Javascript",
+      "author": "lucius",
+      "category": "non fiction",
+      "publishedDate": "2017-09-11T04:03:39.864Z",
+      "user": "",
+      "id": "31947580-96aeeww6-11e7-8c61-51b1835ec78a"
+    },
+    {
+      "name": "Eloquent Javascript",
+      "author": "lucius",
+      "category": "non fiction",
+      "publishedDate": "2017-09-11T04:03:39.864Z",
+      "user": "",
+      "id": "31947580-96a6-11e7-8c61-fff51b1835ec78a"
+    },
+    {
+      "name": "Eloquent Javascript",
+      "author": "lucius",
+      "category": "non fiction",
+      "publishedDate": "2017-09-11T04:03:39.864Z",
+      "user": "jsnow",
+      "id": "31947580-96a6-11e7-8c61-51eeeb1835ec78a"
+    },
+    {
+      "name": "ssss",
+      "author": "ss",
+      "publishedDate": "2017-09-11T04:15:32.590Z",
+      "user": "",
+      "id": "da65d0e0-96a7-11e7-bda6-43a23485ee9b"
+    },
+    {
+      "name": "ccc",
+      "author": "ccc",
+      "category": "IT Development",
+      "publishedDate": "2017-09-11T04:15:58.658Z",
+      "user": "",
+      "id": "e9ef7a20-96a7-11e7-bda6-43a23485ee9b"
+    },
+    {
+      "name": "onlyususu",
+      "author": "ududud",
+      "publishedDate": "2017-09-11T04:16:11.084Z",
+      "user": "oo",
+      "id": "f15788c0-96a7-11e7-9b6e-e7769d2ba885",
+      "category": "oooo"
+    },
+    {
+      "name": "have cat",
+      "author": "author",
+      "category": "IT Development",
+      "publishedDate": "2017-09-11T04:29:07.134Z",
+      "user": "",
+      "id": "bfe75de0-96a9-11e7-a5a2-adbd3c6dbc4c"
+    },
+    {
+      "name": "fddf",
+      "author": "dfdf",
+      "category": "IT Development",
+      "publishedDate": "2017-09-11T06:50:34.640Z",
+      "user": "",
+      "id": "82da0100-96bd-11e7-9df0-37e4332ab712"
+    },
+    {
+      "name": "ff",
+      "author": "ff",
+      "category": "IT Development",
+      "publishedDate": "2017-09-11T06:50:55.889Z",
+      "user": "",
+      "id": "8f845810-96bd-11e7-a4b4-9fe63141f375"
+    },
+    {
+      "name": "Another GoodBook",
+      "author": "ddddd",
+      "category": "IT Development",
+      "publishedDate": "2017-09-11T06:51:53.613Z",
+      "user": "",
+      "id": "b1ec53d0-96bd-11e7-a915-b7ffaffcb903"
+    },
+    {
+      "name": "ff",
+      "author": "fff",
+      "category": "IT Development",
+      "publishedDate": "2017-09-11T06:52:33.799Z",
+      "user": "fff",
+      "id": "c9e03970-96bd-11e7-a986-11432806120a"
+    },
+    {
+      "name": "jjj",
+      "author": "jjjj",
+      "category": "IT Development",
+      "publishedDate": "2017-09-11T06:54:25.744Z",
+      "user": "",
+      "id": "0c99ad00-96be-11e7-830e-1d5638a17ea9"
+    },
+    {
+      "name": "",
+      "author": "",
+      "category": "IT Development",
+      "publishedDate": "2017-09-11T07:05:27.042Z",
+      "user": "",
+      "id": "96c3be20-96bf-11e7-adbe-f5db5f3110a1"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "categories": [
+    "IT Development",
+    "Sci-fi",
+    "non fiction",
+    "historical",
+    "general literature",
+    "Web Design",
+    "React"
   ],
-  "profile": { "name": "typicode" }
+  "users": [
+    "lsuarez",
+    "c3po",
+    "rayanami",
+    "jsnow",
+    "tlannister",
+    "lskywalker",
+    "dvader",
+    "ejaeger"
+  ]
 }
