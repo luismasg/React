@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn add babel-plugin-transform-class-properties@6.24.1
+  /usr/local/bin/node /usr/local/bin/yarn add react-modal@2.2.2
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -22,12 +22,13 @@ npm manifest:
     "scripts": {
       "serve": "live-server public/",
       "build": "webpack",
-      "dev-server":"webpack-dev-server"
+      "dev-server": "webpack-dev-server"
     },
     "dependencies": {
       "babel-cli": "6.24.1",
       "babel-core": "6.25.0",
       "babel-loader": "7.1.1",
+      "babel-plugin-transform-class-properties": "6.24.1",
       "babel-preset-env": "1.5.2",
       "babel-preset-react": "6.24.1",
       "live-server": "^1.2.0",
@@ -454,6 +455,10 @@ Lockfile:
     version "6.13.0"
     resolved "https://registry.yarnpkg.com/babel-plugin-syntax-async-functions/-/babel-plugin-syntax-async-functions-6.13.0.tgz#cad9cad1191b5ad634bf30ae0872391e0647be95"
   
+  babel-plugin-syntax-class-properties@^6.8.0:
+    version "6.13.0"
+    resolved "http://npm.aws.cbtnuggets.com/babel-plugin-syntax-class-properties/-/babel-plugin-syntax-class-properties-6.13.0.tgz#d7eb23b79a317f8543962c505b827c7d6cac27de"
+  
   babel-plugin-syntax-exponentiation-operator@^6.8.0:
     version "6.13.0"
     resolved "https://registry.yarnpkg.com/babel-plugin-syntax-exponentiation-operator/-/babel-plugin-syntax-exponentiation-operator-6.13.0.tgz#9ee7e8337290da95288201a6a57f4170317830de"
@@ -477,6 +482,15 @@ Lockfile:
       babel-helper-remap-async-to-generator "^6.24.1"
       babel-plugin-syntax-async-functions "^6.8.0"
       babel-runtime "^6.22.0"
+  
+  babel-plugin-transform-class-properties@6.24.1:
+    version "6.24.1"
+    resolved "http://npm.aws.cbtnuggets.com/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.24.1.tgz#6a79763ea61d33d36f37b611aa9def81a81b46ac"
+    dependencies:
+      babel-helper-function-name "^6.24.1"
+      babel-plugin-syntax-class-properties "^6.8.0"
+      babel-runtime "^6.22.0"
+      babel-template "^6.24.1"
   
   babel-plugin-transform-es2015-arrow-functions@^6.22.0:
     version "6.22.0"
@@ -3754,7 +3768,7 @@ Lockfile:
       window-size "0.1.0"
 
 Trace: 
-  Error: http://npm.aws.cbtnuggets.com/babel-plugin-transform-class-properties: ETIMEDOUT
+  Error: http://npm.aws.cbtnuggets.com/react-modal: ETIMEDOUT
       at Timeout._onTimeout (/usr/local/lib/node_modules/yarn/lib/cli.js:123675:19)
       at ontimeout (timers.js:365:14)
       at tryOnTimeout (timers.js:237:5)
