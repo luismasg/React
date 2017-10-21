@@ -22,9 +22,9 @@ export default class IndecisionApp extends React.Component {
     };
     handleAddOption = (option) => {
         if (!option) {
-            return ' Enter valid value to add an item';
+            return 'Enter valid value to add an item';
         } else if (this.state.options.includes(option)) {
-            return 'this option already exists';
+            return 'This option already exists';
         }
 
         this.setState(({ options }) => ({
@@ -64,12 +64,14 @@ export default class IndecisionApp extends React.Component {
                 <Header subtitle={subtitle} />
                 <div className="container ">
                     <Action hasOptions={this.state.options.length > 0} handlePick={this.handlePick} />
+                    <div className="widget">
                     <Options
                         options={this.state.options}
                         handleDeleteOptions={this.handleDeleteOptions}
                         handleDeleteOption={this.handleDeleteOption}
                     />
                     <AddOption handleAddOption={this.handleAddOption} />
+                    </div>
                     <OptionModal selectedOption={this.state.selectedOption} closeModal={this.handleCloseModal} />
 
                 </div>
