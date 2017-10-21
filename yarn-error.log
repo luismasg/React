@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn add react-modal@2.2.2
+  /usr/local/bin/node /usr/local/bin/yarn add style-loader@0.18.2 css-loader@0.28.4
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -34,6 +34,7 @@ npm manifest:
       "live-server": "^1.2.0",
       "react": "16.0.0",
       "react-dom": "16.0.0",
+      "react-modal": "2.2.2",
       "webpack": "3.1.0",
       "webpack-dev-server": "^2.5.1"
     }
@@ -1572,6 +1573,10 @@ Lockfile:
       md5.js "^1.3.4"
       safe-buffer "^5.1.1"
   
+  exenv@1.2.0:
+    version "1.2.0"
+    resolved "http://npm.aws.cbtnuggets.com/exenv/-/exenv-1.2.0.tgz#3835f127abf075bfe082d0aed4484057c78e3c89"
+  
   expand-brackets@^0.1.4:
     version "0.1.5"
     resolved "https://registry.yarnpkg.com/expand-brackets/-/expand-brackets-0.1.5.tgz#df07284e342a807cd733ac5af72411e581d1177b"
@@ -2844,7 +2849,7 @@ Lockfile:
     dependencies:
       asap "~2.0.3"
   
-  prop-types@^15.6.0:
+  prop-types@^15.5.10, prop-types@^15.6.0:
     version "15.6.0"
     resolved "http://npm.aws.cbtnuggets.com/prop-types/-/prop-types-15.6.0.tgz#ceaf083022fc46b4a35f69e13ef75aed0d639856"
     dependencies:
@@ -2944,6 +2949,10 @@ Lockfile:
       minimist "^1.2.0"
       strip-json-comments "~2.0.1"
   
+  react-dom-factories@^1.0.0:
+    version "1.0.2"
+    resolved "http://npm.aws.cbtnuggets.com/react-dom-factories/-/react-dom-factories-1.0.2.tgz#eb7705c4db36fb501b3aa38ff759616aa0ff96e0"
+  
   react-dom@16.0.0:
     version "16.0.0"
     resolved "http://npm.aws.cbtnuggets.com/react-dom/-/react-dom-16.0.0.tgz#9cc3079c3dcd70d4c6e01b84aab2a7e34c303f58"
@@ -2952,6 +2961,14 @@ Lockfile:
       loose-envify "^1.1.0"
       object-assign "^4.1.1"
       prop-types "^15.6.0"
+  
+  react-modal@2.2.2:
+    version "2.2.2"
+    resolved "http://npm.aws.cbtnuggets.com/react-modal/-/react-modal-2.2.2.tgz#4bbf98bc506e61c446c9f57329c7a488ea7d504b"
+    dependencies:
+      exenv "1.2.0"
+      prop-types "^15.5.10"
+      react-dom-factories "^1.0.0"
   
   react@16.0.0:
     version "16.0.0"
@@ -3768,7 +3785,7 @@ Lockfile:
       window-size "0.1.0"
 
 Trace: 
-  Error: http://npm.aws.cbtnuggets.com/react-modal: ETIMEDOUT
+  Error: http://npm.aws.cbtnuggets.com/style-loader: ETIMEDOUT
       at Timeout._onTimeout (/usr/local/lib/node_modules/yarn/lib/cli.js:123675:19)
       at ontimeout (timers.js:365:14)
       at tryOnTimeout (timers.js:237:5)
